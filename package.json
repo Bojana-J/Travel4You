@@ -1,0 +1,14 @@
+{
+    "name": "travel",
+    "version": "1.0.0",
+    "description": "Travel project",
+    "scripts": {
+        "lite": "lite-server --port 10001",
+        "start": "npm run lite"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.3.0"
+    }
+}

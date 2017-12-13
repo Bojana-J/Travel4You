@@ -1,0 +1,179 @@
+body {
+	background-color:#e3e0cf;
+	font-family: "Helvetica";
+}
+
+header
+{
+	color: #9fa8a3;
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	margin: 2%;
+}
+
+footer{
+	background: black;
+	color: #e3e0cf;
+	padding: 40px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+h2 {
+	text-align: center;
+}
+
+hr {
+	box-shadow: 6px 6px 6px #9fa8a3;
+	margin: 3% 7%;
+}
+
+/* SECTION 1 PHOTOS */
+#photoGroup 
+{
+	float: right;
+	width: 60%;
+	padding: 2% 0% 0% 2%;
+}
+
+#section1
+{
+	/* padding: 2%; */
+	/* border: 3px solid #9fa8a3; */
+	/* border-radius: 20px;
+	box-shadow: 6px 6px 6px #9fa8a3; */
+	text-align: justify;
+	/* border: 1px solid black; */
+}
+
+
+/* MAIN IMAGINE IN SECTION 1 */
+#mainImage
+{
+	width: 100%;
+}
+
+/*figure
+{
+	height: 100px;
+}*/
+
+figcaption
+{
+	text-align: center;
+	font-style: italic;
+}
+
+.imgFigure
+{
+	height: 80px;
+	width: 19%;
+}
+
+/* 
+MAYBE NEED TO BE REMOVED */
+.imageDiv{
+	width: 100%;
+	height: 200px;
+}
+
+.paragraph, .hidden{
+	padding: 8px;
+	text-align: justify;
+}
+
+.paragraph {
+	height: 300px;
+}
+
+.hidden{
+	display: none;
+}
+
+.buttonDiv 
+{
+	font-weight: bold;
+	margin: 4%;
+}
+
+
+.divContainer 
+{
+	width: 25%;
+	display: inline-block;
+}
+
+.divWrapper 
+{
+	display: flex;
+    flex-direction: row;
+}
+
+/* .divHR
+{
+	margin: 7%;
+} */
+
+table
+{
+	border: 3px groove blue;
+	border-collapse: collapse;
+}
+
+th
+{
+	border: 3px solid black;
+	background-color: rgb(245,245,245);
+	color: blue;
+	font-weight: bold;
+}
+
+td 
+{
+	border: 1px solid black;
+	width: 90px;
+	background-color: rgb(251,251,251);
+
+}
+
+caption
+{
+	caption-side: bottom;
+	font-style: italic;
+	margin-top: 10px;
+}
+
+#paragraphFunF
+{
+	font-style: italic;
+	font-family: "Helvetica"
+}
+
+
+/* MAIN CONTAINER FOR SECTIONS */
+.sectionContainer
+{
+	margin: 0% 7%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* CAROSEL IMAGE SIZE */
+.size
+{
+	width: 100%;
+	height: 400px;
+}
+
+
+/* NEW CARDS */
+.card-img-top, .card-body
+{
+	padding: 3%;
+}
+
+.card-text
+{
+	text-align: justify;
+}

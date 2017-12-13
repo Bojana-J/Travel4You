@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title> Main page </title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="./style/main.css" />
+	<script src="js/libs/jquery-3.2.1.js"></script>
+	<script src="js/mainQuery.js"></script>
+	<script src="js/libs/popper.min.js"></script>
+	<script src="js/libs/bootstrap-4.0.min.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #9fa8a3;">
+		<a class="navbar-brand active" href="index.html">Travel4you</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="destinations/italy.html">Italy</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="destinations/spain.html">Spain
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="destinations/austria.html">Austria</a>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+					 aria-expanded="false">
+						Main page
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#recommended-section">Recommended destinations</a>
+						<a class="dropdown-item" href="#popular-section">Popular destinations</a>
+					</div>
+				</li>
+			</ul>
+
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Help</a>
+
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Contact us</a>
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="collapse navbar-collapse ">
+			<ul class="navbar-nav mr-auto ">
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Help</a>
+
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"> Contact us</a>
+				</li>
+			</ul>
+		</div> -->
+	</nav>
+
+	<header class="header-main">
+
+		<h1> EUROPEAN VACATION PACKAGES </h1>
+
+		<div class="alert t-intro">
+			<p> Orchestrated by the world's finest Tour Directors and remarkably knowledgeable local guides, our Europe multi-country
+				vacations are designed to allow you to experience and compare a variety of cultures, take in the must-see sights, and
+				make the most vivid memories. From the ancient ruins in Italy and Greece to the spectacular architecture in France, Travel4you
+				shows you Europe like no one else. Some of our activities include a woodcarving demonstration in Germany's Black Forest, a pasta party in Venice,
+				a Stein of beer or Spätzl at Munich's famous Hofbräuhaus, a visit to the world's largest flower market in Holland, and
+				much more. With Globus, you'll not only see Europe—you'll experience it!</p>
+		</div>
+
+	</header>
+
+	<div class="container">
+		<section id="recommended-section">
+
+			<h2 class="inline-title"> Recommended for you </h2>
+
+			<div class="filters" id="filters-1">
+				<button class="expiring-filter"> EXPIRING SOON </button>
+				<button class="onsale-filter"> ON SALE </button>
+			</div>
+
+			<div class="row offer-cards">
+
+				<div class="col-md-4 offer-item">
+					<div class="divImage onsale" data-price="600">
+						<a href="destinations/italy.html" title="click me">
+							<image class="imageLink" alt="italy" src="./photos/italy/italy1.jpg" />
+						</a>
+						<h2> Rome, Italy </h2>
+						<h3> Price calculator </h3>
+						<p> Number of tickets:
+							<input type="number" class="quantity" value="1" />
+						</p>
+						<p> Total Price: $
+							<span class="total"> 600 </span>
+						</p>
+						<p> Click for more details ...
+							<br/>
+							<button class="dButton"> LEARN MORE </button>
+							<ul class="ticket">
+								<li>
+									<span class="bold"> DESTINATION: </span> Paris, France </li>
+								<li>
+									<span class="bold">DEPARTURE TIME: </span> 1 January 2018</li>
+								<li>
+									<span class="bold">FLIGHT NUMBER: </span> 19kx3s7 </li>
+							</ul>
+						</p>
+						<button class="btn button"> LET'S GO </button>
+					</div>
+				</div>
+
+				<div class="col-md-4 offer-item">
+					<div class="divImage expiring" data-price="400">
+						<a href="destinations/spain.html" title="click me">
+							<image class="imageLink" alt="barcelona" src="./photos/spain/spain2.jpg" /> </a>
+
+						<h2> Barcelona, Spain </h2>
+						<h3> Price calculator </h3>
+						<p> Number of tickets:
+							<input type="number" class="quantity" value="1" />
+						</p>
+						<p> Total Price: $
+							<span class="total"> 400 </span>
+						</p>
+						<p> Click for more details ...
+							<br/>
+							<button class="dButton"> LEARN MORE </button>
+							<ul class="ticket">
+								<li>
+									<span class="bold"> DESTINATION: </span> Paris, France </li>
+								<li>
+									<span class="bold">DEPARTURE TIME: </span> 1 January 2018</li>
+								<li>
+									<span class="bold">FLIGHT NUMBER: </span> 19kx3s7 </li>
+							</ul>
+						</p>
+						<button class="btn button"> LET'S GO </button>
+					</div>
+				</div>
+
+
+				<div class="col-md-4 offer-item">
+					<div class="divImage onsale" data-price="300">
+						<a href="destinations/austria.html" title="click me">
+							<image class="imageLink" alt="vienna" src="../photos/austria/austria1.jpg" />
+						</a>
+						<h2> Vienna, Austria </h2>
+						<h3> Price calculator </h3>
+						<p> Number of tickets:
+							<input type="number" class="quantity" value="1" />
+						</p>
+						<p> Total Price: $
+							<span class="total"> 300 </span>
+						</p>
+						<p> Click for more details ...
+							<br/>
+							<button class="dButton"> LEARN MORE </button>
+							<ul class="ticket">
+								<li>
+									<span class="bold"> DESTINATION: </span> Paris, France </li>
+								<li>
+									<span class="bold">DEPARTURE TIME: </span> 1 January 2018</li>
+								<li>
+									<span class="bold">FLIGHT NUMBER: </span> 19kx3s7 </li>
+							</ul>
+						</p>
+						<button class="btn button"> LET'S GO </button>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<hr>
+
+		<!-- SECTION 3	-	SECTION 3	-	SECTION 3-->
+		<section id="popular-section">
+
+			<h2 class="inline-title"> Popular destinations </h2>
+
+			<div class="filters" id="filters-2">
+				<button class="topRated"> TOP RATED </button>
+				<button class="bestChoice"> BEST CHOICE of 2016 </button>
+			</div>
+
+			<div class="row offer-cards">
+
+				<div class="col-md-4 offer-item">
+					<div class="divImage top" data-price="850">
+						<image class="imageLink" alt="paris" src="./photos/main/paris1.jpg" />
+						<h2> Paris, France </h2>
+						<p> Click for more details ...
+							<br/>
+							<button class="dButton"> LEARN MORE </button>
+							<ul class="ticket">
+								<li>
+									<span class="bold"> DESTINATION: </span> Paris, France </li>
+								<li>
+									<span class="bold">DEPARTURE TIME: </span> 1 January 2018</li>
+								<li>
+									<span class="bold">FLIGHT NUMBER: </span> 19kx3s7 </li>
+							</ul>
+							<br/>
+						</p>
+						<button class="btn button"> LET'S GO </button>
+					</div>
+				</div>
+
+				<div class="col-md-4 offer-item">
+					<div class="divImage best" data-price="350">
+						<image class="imageLink" alt="prague" src="./photos/main/prague1.jpg" />
+						<h2> Prague, Czech Republic </h2>
+						<p> Click for more details ...
+							<br/>
+							<button class="dButton"> LEARN MORE </button>
+							<ul class="ticket">
+								<li>
+									<span class="bold"> DESTINATION: </span> Paris, France </li>
+								<li>
+									<span class="bold">DEPARTURE TIME: </span> 1 January 2018</li>
+								<li>
+									<span class="bold">FLIGHT NUMBER: </span> 19kx3s7 </li>
+							</ul>
+						</p>
+						<button class="btn button"> LET'S GO </button>
+					</div>
+				</div>
+
+				<div class="col-md-4 offer-item">
+					<div class="divImage" data-price="600">
+						<image class="imageLink" alt="amsterdam" src="./photos/main/amsterdam1.jpg" />
+						<h2> Amsterdam, Netherlands </h2>
+						<p> Click for more details ...
+							<br/>
+							<button class="dButton"> LEARN MORE </button>
+							<ul class="ticket">
+								<li>
+									<span class="bold"> DESTINATION: </span> Paris, France </li>
+								<li>
+									<span class="bold">DEPARTURE TIME: </span> 1 January 2018</li>
+								<li>
+									<span class="bold">FLIGHT NUMBER: </span> 19kx3s7 </li>
+							</ul>
+						</p>
+						<button class="btn button"> LET'S GO</button>
+					</div>
+				</div>
+
+		</section>
+
+		<p>
+			<!-- <button type="button" class="btn btn-primary">Primary</button> -->
+		</p>
+
+		</div>
+
+
+		<footer>
+			<p>Created by: Bojana J.</p>
+			<p>Contact information:
+				<a href="mailto:bojana@gmail.com">bojana@gmail.com</a>.</p>
+		</footer>
+
+
+</body>
+
+</html>

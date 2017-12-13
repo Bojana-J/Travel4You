@@ -1,0 +1,212 @@
+body
+{
+	background-color:#e3e0cf;
+	font-family: "Helvetica";
+}
+
+header
+{	
+	text-align: center;
+}
+
+h1 {
+	color: #4897e0;
+	font-size: 2.5em;	
+}
+
+h2 {
+	color: #746b48;
+}
+
+.inline-title{
+	display: inline-block;
+}
+
+hr
+{
+	margin: 2%;
+	box-shadow: 6px 6px 6px #9fa8a3;
+}
+
+
+
+/*FILTER BUTTONS*/
+.filters{
+	display: inline-block;
+	border-radius: 10px;
+	float: right;
+	margin-top: 20px;
+	background-color: #c1c0ad;
+}
+
+.filter-selected{
+	border: solid 3px #4897e0;
+}
+
+.filter-selected-2{
+	border: solid 3px orange;
+}
+
+#buttonsTop{
+	background-color: orange;
+	position:absolute;
+	border-radius: 10px;
+	right: 8%;
+}
+
+.filters button {
+	width: 200px;
+	height: 35px;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 1em;
+	color:orange;
+}
+
+.filters button:focus, .filters button:active{
+	outline: none;
+}
+
+#buttonsTop button {
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+	font-weight: bold;
+	font-size: 1em;
+	color:grey;
+}
+
+#subscribe{
+	position: absolute;
+	right: 40%;
+}
+
+.offer-cards{
+	margin-top: 40px;
+}
+
+.offer-item{
+	margin-bottom: 20px;
+}
+
+.divImage{
+	background-color: rgba(251,251,251,0.8);
+	display: inline-block;
+	vertical-align: top;
+	border: 3px solid #9fa8a3;
+	box-shadow: 6px 6px 6px #9fa8a3;
+	padding: 10px;
+    border-radius: 6px;
+}
+
+.imageLink{
+	width: 100%;
+	height: 230px;
+}
+
+.button{
+	background-color: #558fe6;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	font-family: "comic sans";
+	float: right;
+}
+
+.card-highlighted{
+	box-shadow: 16px 16px 6px #9fa8a3;
+	margin-top: -2px;
+	margin-left: -2px; 
+}
+
+.card-selected{
+	background-color: #4897e0;
+	border: 7px solid #4897e0;
+}
+
+.card-selected-2{
+	background-color: orange;
+	border: 7px solid orange;
+}
+
+.ticket{
+	display: none;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.divDropDown
+{
+	width: 18%;
+	background-color: #9fa8a3;
+	font-size: 1.2em;
+}
+
+select {
+	color: blue;
+}
+
+.t-navbar{
+	margin-bottom: 0;
+}
+
+.t-intro{
+	position: absolute;
+	bottom: 20px;
+	max-width: 600px;
+	color: black;
+	text-shadow: 2px 2px 10px grey;
+	text-align: center;
+	font-size: 1.01em;
+	background-color:#e3e0cfdd;
+}
+
+/* HEADER */
+.header-main{
+	position: relative;
+	background: url("../photos/plane.png");
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	padding: 20px;
+}
+
+section{
+	position: relative;
+	margin-top: 40px;
+}
+
+/* FOOTER */
+footer{
+	background: black;
+	color: #e3e0cf;
+	padding: 40px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+@media screen and (max-width: 720px) {
+	.t-intro{
+		position: relative;
+		top: 20px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.filters{
+		position: relative;
+		text-align: center;
+		float: none;
+		display: block;
+	}
+	section{
+		margin-top: 20px;
+	}
+	.inline-title{
+		text-align: center;
+		display: block;
+	}
+}
+
