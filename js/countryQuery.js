@@ -1,9 +1,8 @@
 $(document).ready(function () {
 
 
-    $(".divMoreAbout").on("click", "button", function () {
-        // event.stopPropagation();
-        $(this).closest(".divMoreAbout").find(".hidden").slideToggle();
+    $(".card-body").on("click", "button", function () {
+        $(this).closest(".card-body").find(".hidden2").slideToggle();
     });
 
 
