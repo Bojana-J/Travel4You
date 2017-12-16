@@ -39,10 +39,15 @@ hr {
 	padding: 3%;
 }
 
+.card-img-top {
+	height: 260px;
+}
+
 .card-text, .hidden2
 {
 	text-align: justify;
 }
+
 
 /* SECTION 1 PHOTOS */
 #photoGroup 

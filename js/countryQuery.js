@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
 
-    $(".card-body").on("click", "button", function () {
-        $(this).closest(".card-body").find(".hidden2").slideToggle();
+    $(".card-footer").on("click", "button", function () {
+        $(this).closest(".card").find(".hidden2").slideToggle();
     });
 
 
