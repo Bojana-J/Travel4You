@@ -1,14 +1,5 @@
 $(document).ready(function () {
 
-
-	$(".button").on("click", function () {
-		var close = $(this).closest(".divImage");
-		var price = close.data("price");
-		var paragraph = $("<p> The price is " + price + " </p>")
-		close.append(paragraph);
-		$(this).remove();
-	});
-
 	$(".divImage>a").hover(function () {
 		$(this).parent().addClass('card-highlighted');
 	}, function () {

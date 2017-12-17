@@ -9,6 +9,14 @@ header
 	text-align: center;
 }
 
+footer{
+	background: black;
+	color: #e3e0cf;
+	padding: 40px;
+	text-align: center;
+	margin-top: 40px;
+}
+
 h1 {
 	color: #4897e0;
 	font-size: 2.5em;	
@@ -17,6 +25,23 @@ h1 {
 h2 {
 	color: #746b48;
 }
+
+/* HEADER */
+.header-main{
+	position: relative;
+	background: url("../photos/plane.png");
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	padding: 20px;
+}
+
+section{
+	position: relative;
+	margin-top: 40px;
+}
+
+
 
 .inline-title{
 	display: inline-block;
@@ -137,20 +162,9 @@ hr
 	font-weight: bold;
 }
 
-.divDropDown
-{
-	width: 18%;
-	background-color: #9fa8a3;
-	font-size: 1.2em;
-}
-
-select {
-	color: blue;
-}
-
-.t-navbar{
+ .t-navbar{
 	margin-bottom: 0;
-}
+} 
 
 .t-intro{
 	position: absolute;
@@ -163,29 +177,7 @@ select {
 	background-color:#e3e0cfdd;
 }
 
-/* HEADER */
-.header-main{
-	position: relative;
-	background: url("../photos/plane.png");
-	background-size: cover;
-	background-position: center;
-	min-height: 400px;
-	padding: 20px;
-}
 
-section{
-	position: relative;
-	margin-top: 40px;
-}
-
-/* FOOTER */
-footer{
-	background: black;
-	color: #e3e0cf;
-	padding: 40px;
-	text-align: center;
-	margin-top: 40px;
-}
 
 @media screen and (max-width: 720px) {
 	.t-intro{
@@ -209,4 +201,5 @@ footer{
 		display: block;
 	}
 }
+
 
